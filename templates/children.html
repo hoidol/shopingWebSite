@@ -1,0 +1,9 @@
+{% extends 'parent.html' %}
+
+{% block content1 %}
+    <h1>자식</h1>
+    <p>될까요?</p>
+    <ul>
+        {{ l_function() | safe}}
+    </ul>
+{% endblock %}
